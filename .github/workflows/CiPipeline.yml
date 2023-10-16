@@ -13,10 +13,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Update Profile
+      - name: Check Working Directory
         run: |
-          # Add commands here to update your README.md file
-          # For example, you can generate content and save it to README.md
+          git status
 
       - name: Commit and Push Changes
         run: |
