@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi there 👋<br>I'm a Devops engineer with a passion for building<br>things and solving problems. I'm currently working<br>as a Devops Engineer at @Litera Technologies. I have a strong interest<br>in cloud computing and Devops tools.
+Hi there 👋<br>I'm a Devops engineer with a passion for building<br>things and solving problems. I'm currently working<br>as a Devops Engineer @Litera Technologies. I have a strong interest<br>in cloud computing and Devops tools.
 
 
 ## 🌐 Socials:
