@@ -1,0 +1,27 @@
+name: Update GitHub Profile
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Update Profile
+        run: |
+          # Add commands here to update your README.md file
+          # For example, you can generate content and save it to README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name 'Nileshchakradhar'
+          git config user.email 'nileshchakradhar@gmail.com'
+          git add .
+          git commit -m 'Update GitHub profile'
+          git push
